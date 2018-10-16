@@ -7,4 +7,4 @@
 
 * [LinkedIn](https://www.linkedin.com/in/thomas-green-09768a76/)
 
-![alt text](pic)
+
