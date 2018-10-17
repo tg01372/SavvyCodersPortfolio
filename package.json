@@ -1,0 +1,23 @@
+{
+  "name": "ThomasGreen",
+  "version": "1.0.0",
+  "description": "* Mountain Biking * Drinking Coffee * Eating Doughnuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tg01372/SavvyCodersPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tg01372/SavvyCodersPortfolio/issues"
+  },
+  "homepage": "https://github.com/tg01372/SavvyCodersPortfolio#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
