@@ -8,4 +8,4 @@
 * [LinkedIn](https://www.linkedin.com/in/thomas-green-09768a76/)
 
 
-![alt text](/img/bridge.jpg "bridge")
+![alt text](/img/profile.jpg "Profile" )
