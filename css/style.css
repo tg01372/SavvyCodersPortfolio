@@ -1,0 +1,84 @@
+
+     /* Blog and Project Page Below */
+     
+     html {
+        box-sizing: border-box;
+            }
+    
+            body {
+                width: 80;
+                background: skyblue;
+                margin-left:10%;
+                margin-right:10%;
+                text-align: center;
+    
+            }
+            h1 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                size:2em
+            }
+            
+            h2 {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                size:1.5em
+            }
+            
+            p {
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                size: 16px;
+    
+                 }
+            
+            li {
+                align-content: left;
+                margin-right:20px;
+                list-style: none;
+                display:inline
+                }
+                
+        .container {
+        max-width: 960px;
+        margin: 0 auto;
+        }
+            
+    
+            .content-area {
+            text-align: left;
+            margin-left: 25%;
+            margin-right:25%;
+            }
+    
+            .footer {
+                background-color:white;
+                color:grey;
+            }
+    
+            .highlighted{
+                background-color: yellow;
+            }
+        
+          /* Landing Page Below */
+
+            body {width:90%;
+                margin-right: auto;
+                margin-left:auto;
+                
+                background-color: rgb(9, 0, 139)
+                      }
+                    h1 {font-family: Verdana, Geneva, Tahoma, sans-serif
+                    ; color:rgb(255, 255, 255)
+                }
+                
+                h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(255, 255, 255)}
+                
+                li{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    list-style: none
+                    
+                }
+                
+                #profile {border-radius: 50%; }
+                
+                
+
+         
