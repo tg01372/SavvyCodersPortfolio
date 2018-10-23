@@ -18,6 +18,7 @@
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 size:2em;
                 font-style: normal;
+                text-align: center
                
                 
             }
@@ -25,6 +26,7 @@
             h2 {
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 size:1.5em;
+                text-align: center
                
             }
             
@@ -70,6 +72,7 @@
                 margin-left:auto;
                 
                 background-color: lemonchiffon;
+
                       }
 
 
@@ -78,12 +81,13 @@
                     
                 }
                 
-            h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(255, 255, 255)}
+            h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(255, 255, 255);text-align: center}
                 
                 
             li{
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    list-style: none
+                    list-style: none;
+                    text-align: center
                     
                 }
                 
