@@ -1,7 +1,8 @@
 
-     /* Blog and Project and contactPage Below */
+     /* Global Styles */
      
      html {
+
         box-sizing: border-box;
             }
     
@@ -11,104 +12,108 @@
                 margin-left:10%;
                 margin-right:10%;
                 text-align: center;
-                border-color: darkgreen
-    
-            }
+                display: grid;
+                grid-template-rows: min-content min-content auto min-content;
+                grid-template-areas:
+                    "navigation"
+                    "header"
+                    "content-area"
+                    "footer"
+                    min-height: 100vh;
+                }
+            
             h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: 'Rokkitt', serif;;
                 size:2em;
-                font-style: normal;
-                text-align: center
+                font-family: 'Rokkitt', serif;
+                text-decoration-color:black
+              
                
                 
             }
             
             h2 {
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-family: 'Crimson Text', serif; ;
                 size:1.5em;
-                text-align: center
+                
                
             }
             
             p {
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-family: 'Rokkitt', serif;
                 size: 16px; 
     
                  }
             
             li {
-                align-content: left;
+                
+                
+                text-align: center;
                 margin-right:20px;
                 list-style: none;
-                display:inline;
+                display:block;
                 font-style: inherit
-                }
                 
-        .container {
-        max-width: 960px;
-        margin: 0 auto;
+                }
+
+                
+            .container-header {
+            grid-area: header;
+            max-width: 960px;
+            margin: 0 auto;
         }
             
     
             .content-area {
-            text-align: left;
+               
+            grid-area: content-area;
+            text-align: center;
             margin-left: 25%;
             margin-right:25%;
             }
+
+            .navigation {
+
+            grid-area: navigation
+                }
     
             .footer {
-                background-color:white;
-                color:grey;
+            grid-area: footer;
+            background-color:white;
+            color:grey;
             }
     
-            .highlighted{
-                background-color: yellow;
-            }
-        
-          /* Landing Page Below */
-
-            body {width:90%;
-                margin-right: auto;
-                margin-left:auto;
-                
-                background-color: lemonchiffon;
-
-                      }
-
-
-            h1 {font-family: Verdana, Geneva, Tahoma, sans-serif
-                    ; color:rgb(255, 255, 255);
-                    
-                }
-                
-            h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(255, 255, 255);text-align: center}
-                
-                
-            li{
-                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    list-style: none;
-                    text-align: center
-                    
-                }
-                
-            #profile {border-radius: 50%; border-color: honeydew;align-content: center }
+           
+            #profile {border-radius: 50%; border-color: honeydew;align-content: center;size: 20px }
             #bridge {border-radius:15%}
+            #contact-info{align-content: center}
+            #contact {align-content: center}
                 
-                /* Form Styles */
+        /* Form Styles */
 
-            form input { display:flex;width: 100% ;align-content: center;
+        form input { display:flex;width: 100% ;align-content: center;
                 margin-bottom: 50px
                     }
 
         input[type="submit"] { 
             display: block;
             text-align: center
-        }
+            
+            
+        }/* navigation */
 
-
-
-
+        
     
+        @media (min-width: 612px) {
+            body {
+              grid-template-columns: 10rem auto;
+              grid-template-rows: min-content auto min-content;
+              grid-template-areas:
+                "navigation header"
+                "navigation content"
+                "navigation footer"
+            }
+          }
             
 
          
