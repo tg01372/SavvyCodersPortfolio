@@ -18,7 +18,7 @@
                     "navigation"
                     "header"
                     "content-area"
-                    "footer"
+                    "footer";
                     min-height: 100vh;
                 }
             
@@ -98,22 +98,75 @@
         input[type="submit"] { 
             display: block;
             text-align: center
+        }  
             
-            
-        }/* navigation */
+        /* navigation styles */
 
+    .navigation {
+        grid-area: navigation;
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        top: 0;
+        color: #fff;
+        width: 100%;
+        background-color: #000;
+        position:sticky;
+        padding-top: 1em;
+        padding-bottom: 1em;
+}
+  
+.navigation > ul > li {
+    position: relative;
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+  
+.dropdown {
+    /* padding: 10px; */
+    display: none;
+  }
+
+
+
+.navigation a:hover + .dropdown,  .dropdown + li{
+  visibility: visible;
+  display: block;
+}
+
+/* blog styles */
+.blog-post {
+    padding: 10px;
+    box-shadow: 0 0 30px #333;
+    margin-bottom: 2em;
+}
+
+/* Large Screen layout adjustments */
+@media (min-width: 612px) {
+    body {
+      grid-template-columns: 10rem auto;
+      grid-template-rows: min-content auto min-content;
+      grid-template-areas:
+        "navigation header"
+        "navigation content-area"
+        "navigation footer";
         
-    
-        @media (min-width: 612px) {
-            body {
-              grid-template-columns: 10rem auto;
-              grid-template-rows: min-content auto min-content;
-              grid-template-areas:
-                "navigation header"
-                "navigation content"
-                "navigation footer"
-            }
-          }
-            
-
-         
+    }
+    .navigation {
+         height: 100vh;
+    }
+    .navigation ul li {
+        display: block;
+        text-align: left;
+        margin-left: -2em;
+        padding: 0 10px;
+        margin-bottom: .5em;
+        font-size: 1.5em;
+    }
+    .header {
+        margin-top: 0;
+    }
+  }
