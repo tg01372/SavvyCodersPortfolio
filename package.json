@@ -19,5 +19,8 @@
   "homepage": "https://github.com/tg01372/SavvyCodersPortfolio#readme",
   "devDependencies": {
     "eslint": "^5.7.0"
+  },
+  "dependencies": {
+    "parcel": "^1.10.3"
   }
 }
