@@ -46,7 +46,7 @@
             
             li {
                 
-                display: inline;
+                display: block;
                 list-style: none;
                 font-style: inherit;
                 
@@ -54,8 +54,9 @@
 
             
 
+            
+
             .header {
-                    background-image: url("https://static1.squarespace.com/static/56a4f185a2bab8bce6c3249a/t/5733c91c8259b5b7a419a368/1463011629312/");
                     grid-area: header;
                     text-align: center;
                     margin-bottom: 1.5em;
@@ -113,11 +114,12 @@
                 border-radius: 50%; 
                 border-color: honeydew;
                 align-content: center;
-                width: 50%;
+                width: 40%;
+                margin: 2em auto
 
                 }
             #bridge    
-                {border-radius: 15%; width: 50%;}
+                {width: 100%;}
             #contact-info
                 {align-content: center}
             #contact 
@@ -220,8 +222,8 @@
 
         .navigation a:hover,a:hover {
 
-            color:blueviolet;
-            cursor: progress;
+            color:#6A5B86;
+            cursor:default;
         }
 
 
@@ -246,6 +248,7 @@
         
 
 
+       
     /* Large Screen layout adjustments */
 @media (min-width: 768px) {
     body {
