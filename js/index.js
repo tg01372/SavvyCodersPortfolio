@@ -15,20 +15,20 @@
     `
 // Greeter
 
-var firstName = prompt("Hi there! What's your first name?")
-var lastName = prompt("What's your last name?")
-var output = document.querySelector("#greeting")
+// var firstName = prompt("Hi there! What's your first name?")
+// var lastName = prompt("What's your last name?")
+// var output = document.querySelector("#greeting")
 
- function checkName() {
-            if (firstName && firstName != 'null' && lastName && lastName != 'null'){
-                output.innerHTML = `<p>Thanks for visiting <span class="highlighted">${firstName} ${lastName}.</span></p>`
-            } else {
-                firstName = prompt('For real, what is your first name?')
-                lastName = prompt("For real, what's your last name?")
-                checkName()
-            }
-        } 
+//  function checkName() {
+//             if (firstName && firstName != 'null' && lastName && lastName != 'null'){
+//                 output.innerHTML = `<p>Thanks for visiting <span class="highlighted">${firstName} ${lastName}.</span></p>`
+//             } else {
+//                 firstName = prompt('For real, what is your first name?')
+//                 lastName = prompt("For real, what's your last name?")
+//                 checkName()
+//             }
+//         } 
         
-        checkName()
+//         checkName()
         
 

@@ -6,8 +6,6 @@ export default
 <ul >
     
     <li>Thomas Green</li>
-    <li>Thomasleegreen28@gmail.com</li>
-    <li>(c) 912.658.3716</li>
     <li>Chattanooga, TN</li>
     
     
