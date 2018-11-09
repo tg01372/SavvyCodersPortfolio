@@ -1,4 +1,5 @@
-export default `
+export default function Footer(state) {
+    return `
 <div class="footer">
 
 <p>&copy; 2018 Thomas Lee Green All Rights Reserved</p>
@@ -11,3 +12,5 @@ export default `
 
 </div>
 `
+}
+
