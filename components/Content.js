@@ -1,21 +1,11 @@
-export default function Content(state) {
-    return `
-    
-    <div class="container content-area">
+import * as pages from "./pages";
+export default function(state) {
+    return ` <div class="container content-area">
+    ${pages[state.body]}
+     </div>
+ ` } 
 
 
 
-<ul >
-   
 
-    <li><marquee>Welcome to my site!  I hope you enjoy your stay </marquee> </li>
-    <li>Thomas Green</li>
-    <li>Chattanooga, TN</li>
-    
-  
-    
-</ul>
 
-</div>`
-
-}

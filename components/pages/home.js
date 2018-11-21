@@ -1,6 +1,7 @@
 export default `<div class="container content-area">
 
 
+<img  src="br (1).jpg" alt="bridge" />
 
 <ul >
    
