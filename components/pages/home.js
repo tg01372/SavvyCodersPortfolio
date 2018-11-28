@@ -1,7 +1,8 @@
-export default `<div class="container content-area">
+export default function(state){
+    return `<div class="container content-area">
 
 
-<img  src="br (1).jpg" alt="bridge" />
+<img  data-src="bridge.jpg" alt="bridge" />
 
 <ul >
    
@@ -17,3 +18,4 @@ export default `<div class="container content-area">
 </div>`
 
 
+}

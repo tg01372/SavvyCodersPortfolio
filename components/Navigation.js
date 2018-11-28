@@ -1,6 +1,5 @@
-export default function Navigation() {
-    return `
-<div class="navigation">
+export default function (state) {
+    return `<div class="navigation">
 
 <ul>
 

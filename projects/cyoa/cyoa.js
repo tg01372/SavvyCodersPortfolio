@@ -1,10 +1,12 @@
-var response = prompt("You walk into a room with a chair and a window. Type 'sit' to sit in the chair, type 'gaze' to gaze wistfully out the window and sigh");
+var response = prompt("You walk up to the ocean shore. Type 'swim' to swim in the ocean, type 'sit' to sit on the sand");
 
 if(response === "sit"){
-    response = prompt("Here's a new prompt, with new options");
-} else if (response === "gaze") {
-    response = prompt("Here's a new prompt, with new options");
-} else {
-    alert("Please type in a valid input! Refresh the page to try again.");
-}
+ response = prompt("A crab comes and snaps at your toe, type 'fling' to fling off the creb, type 'run' to run into the ocean");
+        if(response ==="fling")
+            response = prompt("The crab flies into your mouth");
+        }else if(response ==="run"){
+                response = alert("The ocean is too cold and you cry ");
+        }
 
+
+    

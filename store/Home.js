@@ -4,3 +4,4 @@ export default {
     links: [`home`,`projects`,`blog`,`contact`]
 
 }
+

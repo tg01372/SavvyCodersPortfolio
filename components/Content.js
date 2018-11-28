@@ -1,11 +1,11 @@
-import * as pages from "./pages";
-export default function(state) {
-    return ` <div class="container content-area">
-    ${pages[state.body]}
-     </div>
- ` } 
+import * as pages from "./Pages";
 
-
-
+export default function (state){
+return `
+    <div>
+      ${pages[state.body](state)} 
+    </div>
+  `;
+}
 
 

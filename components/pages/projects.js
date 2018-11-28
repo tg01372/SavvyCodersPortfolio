@@ -1,4 +1,5 @@
-export default `<div class="container header" style="display:flex;">
+export default function (state) { 
+    return `<div class="container header" style="display:flex;">
 
 </div>
 <div class="container content-area">
@@ -9,3 +10,4 @@ export default `<div class="container header" style="display:flex;">
     </ol>
 </div>
 `
+}
