@@ -1,8 +1,10 @@
+var bridgeimage = require ('../../assets/img/bridge.jpg')
+
 export default function(state){
     return `<div class="container content-area">
 
 
-<img  data-src="bridge.jpg" alt="bridge" />
+<img  src="${bridgeimage}" alt="bridge" class="bridge" />
 
 <ul >
    

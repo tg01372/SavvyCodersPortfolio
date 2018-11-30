@@ -25,7 +25,7 @@
 
 function mapPost(post) {
     return `
-      <div>
+      <div class= "blog">
         <h3>${post.title}</h3>
         <p>${post.body}</p>
       </div>
